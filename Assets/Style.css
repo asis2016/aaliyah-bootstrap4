@@ -1,0 +1,239 @@
+/* 
+    Created on      :   Sep 15, 2018
+    Author          :   Ashish Singh Maharjan
+    Auther URI      :   http://www.asm.com.np
+    Description     :   This theme is designed for ecommerce website. 
+                        Shout out to http://www.unsplash.com for wonderful hd images.
+*/
+
+/*HOME PAGE*/
+/*################################################################################*/
+
+html, body {
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    letter-spacing: .1rem;
+}
+
+.btn{
+    border-radius: 0;
+}
+
+/*
+TOP NAVBAR
+--------------------------------------------------------------------------------*/
+
+#top-navbar-1{
+    font-size: 1rem;
+}
+
+#top-navbar-1 .fa:hover{
+    text-decoration: none;
+}
+
+#top-navbar-1 li{
+    display: inline;
+    padding-left: 10px;
+}
+
+@media(min-width:768px){
+    #top-navbar-1 .right-menu{
+        text-align: right;
+    }
+
+    #top-navbar-1 .middle-menu{
+        text-align: center;
+    }
+}
+
+
+/*
+MAIN NAVBAR
+--------------------------------------------------------------------------------*/
+.main-navbar-1{
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.main-navbar-1 .navbar-brand .fa{
+    font-size: 2rem;
+}
+
+@media (min-width:992px){
+
+    .main-navbar-1 .input-group{
+        width: 50%;
+    }
+
+}
+
+@media (max-width:767px){
+    .main-navbar-1 .menu-2{
+        padding-top:  1.5rem !important;
+        padding-bottom:   1.5rem !important;
+    }
+}
+
+/*
+TOP DEALS 2
+--------------------------------------------------------------------------------*/
+
+#top-deal-2{
+    margin-top: 1rem !important;
+}
+
+#top-deal-2 .list-group-item{
+    border-radius: 0;
+}
+
+/*
+TOP DEALS 1
+--------------------------------------------------------------------------------*/
+#top-deals-1 {
+    padding-top:7rem;
+    padding-bottom:7rem;
+}
+
+#top-deals-1 img{
+    box-shadow: 0 .25rem .75rem rgba(255, 255, 255, .2);
+}
+
+/*
+SHOP CATEGORY
+--------------------------------------------------------------------------------*/
+
+#shop-category-1{
+
+    padding-top:7rem;
+    padding-bottom:7rem;
+    border-bottom:  1px solid;
+    border-bottom-color: rgba(0, 0, 0, 0.01);
+
+}
+
+.home-featured-products-3-img{
+    overflow: hidden;
+}
+
+.home-featured-products-3{
+    padding-bottom: 20px;
+}
+.home-featured-products-3 .card{
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.home-featured-products-3 .card:hover {
+    transition: all .8s;
+    -webkit-box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.2);
+}
+
+.home-featured-products-3-img:hover img{
+    transform:scale(1.1);
+    transition: all .8s;
+}
+
+.home-featured-products-3 img, .home-featured-products-3 .card{
+    transition: all .8s;
+}
+
+/*
+INFOBOX 2
+--------------------------------------------------------------------------------*/
+
+.home-infobox-2{
+    border-top: 1px solid rgba(58, 42, 58, .2);
+}
+
+.home-infobox-2 .box{
+    border: 1px solid rgba(58, 42, 58, .2);
+}
+
+.home-infobox-2 .fa{
+    font-size: 4rem;
+}
+
+
+/*
+JUMBOTRON 2
+--------------------------------------------------------------------------------*/
+
+#jumbotron2 .jumbotron {
+    /* Create the parallax scrolling effect */
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url('img/background4.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: #fff;
+}
+
+#jumbotron2 .jumbotron, .card, .form-control{
+    border-radius: 0;
+}
+
+/*
+PORTFOLIO 2
+--------------------------------------------------------------------------------*/
+
+#portfolio-2{
+    padding-top:7rem;
+    padding-bottom:7rem;
+}
+
+#portfolio-2 img {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .7);
+}
+
+#portfolio-2 .item img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1.5rem !important;
+    border-radius: 50% !important;
+}
+
+#portfolio-2 .item .fa-star, .item .fa-star-o{
+    color: #DB9095;
+}
+
+
+/*
+NEWSLETTER 1
+--------------------------------------------------------------------------------*/
+
+#newsletter-1 .btn, #newsletter-1 .form-control{
+    border-radius: 0;
+}
+
+
+/*
+TOP NAVBAR
+--------------------------------------------------------------------------------*/
+
+footer{
+    padding-top:7rem;
+}
+
+@media(min-width:768px){
+    #footer-3 .designed-by{
+        text-align: right;
+    }
+}
+@media(max-width:767px){
+    #footer-3 .logo-menu{
+        text-align: center;
+    }
+}
+
+
+/*################################################################################*/

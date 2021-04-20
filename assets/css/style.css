@@ -168,7 +168,7 @@ JUMBOTRON 2
 
 #jumbotron2 .jumbotron {
     /* Create the parallax scrolling effect */
-    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url('img/background4.jpg') ;
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url('../images/background4.jpg') ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

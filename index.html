@@ -35,6 +35,18 @@
     <!--CSS-->
     <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+    <style>
+      .slider-image{
+        object-fit: cover;
+        object-position: top;
+        height: 500px;
+        width: 100%;
+      }
+      .category-icon{
+        height: 20px;
+      }
+    </style>
   </head>
   <body>
     <!--TOP NAVBAR-->
@@ -146,13 +158,28 @@
         <div class="row">
           <div class="col-lg-3 col-md-4 col-sm-12 p-3">
             <ul class="list-group rounded-0">
-              <li class="list-group-item active">Featured Categories</li>
-              <li class="list-group-item">Summer Men's 2018</li>
-              <li class="list-group-item">Women's Jacket 17</li>
-              <li class="list-group-item">Handmade Soap for Women</li>
-              <li class="list-group-item">Gym Outfits</li>
-              <li class="list-group-item">Tibetan T-shirts</li>
-              <li class="list-group-item">Primary Hemp Bag</li>
+              <li class="list-group-item active">Shop by categories</li>
+              <li class="list-group-item">
+                <img src="assets/images/icons/trending-now.png" class="category-icon" alt=""> Trending Now
+              </li>
+              <li class="list-group-item">
+                <img src="assets/images/icons/formal.png" class="category-icon" alt=""> Formal Collections
+              </li>
+              <li class="list-group-item">
+                <img src="assets/images/icons/gym-outfits.png" class="category-icon" alt=""> Gym Outfits</li>
+              <li class="list-group-item">
+                <img src="assets/images/icons/dresses.png" class="category-icon" alt=""> Dresses</li>
+              <li class="list-group-item">
+                <img src="assets/images/icons/tops.png" class="category-icon" alt=""> Tops</li>
+              <li class="list-group-item">
+                <img src="assets/images/icons/bottoms.png" class="category-icon" alt=""> Bottoms</li>
+              <li class="list-group-item">
+                <img src="assets/images/icons/swim-suits.png" class="category-icon" alt=""> Swimsuits</li>
+              <li class="list-group-item">
+                <img src="assets/images/icons/beauty.png" class="category-icon" alt=""> Beauty Collections
+              </li>
+              <li class="list-group-item">
+                <img src="assets/images/icons/designer-selection.png" class="category-icon" alt=""> Desinger's Selection</li>
             </ul>
           </div>
 
@@ -170,7 +197,7 @@
                 <div class="carousel-item active">
                   <img
                     src="assets/images/topdeals-1.png"
-                    class="img img-responsive w-100"
+                    class="img slider-image"
                     alt="Photo by freestocks.org on Unsplash"
                   />
                 </div>
@@ -178,7 +205,15 @@
                   <div class="overlay"></div>
                   <img
                     src="assets/images/topdeals-2.png"
-                    class="img img-responsive w-100"
+                    class="img slider-image"
+                    alt="Photo by freestocks.org on Unsplash"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <div class="overlay"></div>
+                  <img
+                    src="assets/images/topdeals-3.png"
+                    class="img slider-image"
                     alt="Photo by freestocks.org on Unsplash"
                   />
                 </div>
